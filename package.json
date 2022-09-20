@@ -1,23 +1,26 @@
 {
-  "name": "sit725-2022-t2-prac3-second",
+  "name": "sit725-2022-T2-prac3-second",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "week 3 prac for SIT 725 2022",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
-
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AkilaSooriyabandara/SIT725-2022-T2-Prac3 -second.git"
+    "url": "git+https://github.com/AkilaSooriyabandara/sit725-2022-t2-prac3.git"
   },
+  "keywords": [
+    "Express",
+    "NodeJs"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AkilaSooriyabandara/SIT725-2022-T2-Prac3-second/issues"
+    "url": "https://github.com/AkilaSooriyabandara/sit725-2022-t2-prac3-second/issues"
   },
-  "homepage": "https://github.com/AkilaSooriyabandara/SIT725-2022-T2-Prac3-second#readme",
+  "homepage": "https://github.com/AkilaSooriyabandara/sit725-2022-t2-prac3-second#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.17.3"
   }
 }
