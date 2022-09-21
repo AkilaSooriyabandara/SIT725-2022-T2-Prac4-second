@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/AkilaSooriyabandara/sit725-2022-t2-prac4-second#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3"
   }
 }

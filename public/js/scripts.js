@@ -40,6 +40,14 @@ const addCards = (items) => {
     });
 }
 
+const getProjects = () => {
+    $.get('/api/projects',(response) => {
+        if(response.statusCode==200){
+            addCards(response.data);
+        }
+    })
+}
+
 
 
 $(document).ready(function(){
@@ -47,6 +55,6 @@ $(document).ready(function(){
     $('#formSubmit').click(()=>{
         submitForm();
     })
-    addCards(cardList);
+    getProjects();
     $('.modal').modal();
   });
