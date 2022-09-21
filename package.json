@@ -4,7 +4,9 @@
   "description": "week 4 prac for SIT 725 2022",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test" : "mocha --reporter spec"
+
   },
   "repository": {
     "type": "git",
